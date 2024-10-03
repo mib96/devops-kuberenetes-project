@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "dgSpecHash": "IIGmQlC8/l0=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\User\\Desktop\\AppNETECS\\src\\WeatherForecastApi.AppHost\\WeatherForecastApi.AppHost.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\aspire.hosting\\8.1.0\\aspire.hosting.8.1.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Element WeatherForecastApi.AppHost zależy od elementu Aspire.Hosting (>= 8.0.0-preview.2.23619.3), ale nie znaleziono elementu Aspire.Hosting 8.0.0-preview.2.23619.3. Najlepsze rozpoznane przybliżone dopasowanie to Aspire.Hosting 8.1.0.",
+      "libraryId": "Aspire.Hosting",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu Grpc.AspNetCore. W źródłach nie istnieją pakiety z tym identyfikatorem: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Grpc.AspNetCore",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu KubernetesClient. W źródłach nie istnieją pakiety z tym identyfikatorem: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "KubernetesClient",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu Microsoft.Extensions.Hosting. W źródłach nie istnieją pakiety z tym identyfikatorem: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Extensions.Hosting",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu Polly.Core. W źródłach nie istnieją pakiety z tym identyfikatorem: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Polly.Core",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

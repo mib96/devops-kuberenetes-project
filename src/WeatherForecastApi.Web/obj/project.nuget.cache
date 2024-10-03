@@ -1,0 +1,81 @@
+{
+  "version": 2,
+  "dgSpecHash": "mVG9GKygSr8=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\User\\Desktop\\AppNETECS\\src\\WeatherForecastApi.Web\\WeatherForecastApi.Web.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu OpenTelemetry.Instrumentation.AspNetCore. W źródłach nie istnieją pakiety z tym identyfikatorem: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "OpenTelemetry.Instrumentation.AspNetCore",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu OpenTelemetry.Instrumentation.GrpcNetClient. W źródłach nie istnieją pakiety z tym identyfikatorem: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "OpenTelemetry.Instrumentation.GrpcNetClient",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu OpenTelemetry.Exporter.OpenTelemetryProtocol. W źródłach nie istnieją pakiety z tym identyfikatorem: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "OpenTelemetry.Exporter.OpenTelemetryProtocol",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu OpenTelemetry.Instrumentation.Runtime. W źródłach nie istnieją pakiety z tym identyfikatorem: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "OpenTelemetry.Instrumentation.Runtime",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu Microsoft.Extensions.Http.Resilience. W źródłach nie istnieją pakiety z tym identyfikatorem: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Extensions.Http.Resilience",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu Microsoft.Extensions.ServiceDiscovery. W źródłach nie istnieją pakiety z tym identyfikatorem: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Extensions.ServiceDiscovery",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu OpenTelemetry.Extensions.Hosting. W źródłach nie istnieją pakiety z tym identyfikatorem: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "OpenTelemetry.Extensions.Hosting",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu OpenTelemetry.Instrumentation.Http. W źródłach nie istnieją pakiety z tym identyfikatorem: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
+      "libraryId": "OpenTelemetry.Instrumentation.Http",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

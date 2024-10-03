@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WeatherForecastApi.ServiceDefaults\WeatherForecastApi.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="appsettings.*.json" CopyToPublishDirectory="Never" />
+    <Content Update="appsettings.default.json" CopyToPublishDirectory="Always" />
+  </ItemGroup>
+
+</Project>
